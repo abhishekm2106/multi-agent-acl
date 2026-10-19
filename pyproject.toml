@@ -1,18 +1,18 @@
 [project]
 name = "multi-agent-acl"
 version = "0.1.0"
-description = "Add your description here"
+description = "Multi-agent wedding planner: a LangChain supervisor agent delegating web research to subagents"
 readme = "README.md"
 authors = [
     { name = "Abhishek Mohanty", email = "abhishekm2106@gmail.com" }
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "dotenv>=0.9.9",
     "langchain>=1.4.6",
     "langchain-google-genai>=4.4.2",
     "langchain-groq>=1.1.3",
     "langchain-openai>=1.7.2",
+    "python-dotenv>=1.2.4",
     "tavily-python>=0.8.5",
 ]
 
